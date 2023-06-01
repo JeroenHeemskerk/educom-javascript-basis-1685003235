@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <script>     
+    
+        const cart = [18, 5, 20, 21] 
+        
+        function sum() {
+            var sum = 0;
+
+            cart.forEach(cart => {
+                sum += cart;
+            })
+        return sum
+        }
+
+        cartprice = sum(cart)
+
+        function addTax(cartprice) {
+            const tax = 1.21
+        
+        var totalprice = cartprice * tax
+        
+        console.log(totalprice)
+        }
+
+        addTax(cartprice)
+
+
+            
+     
+        
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
